@@ -1,3 +1,3 @@
 # CovidML
 ML application using Flask for Covid
-https://covid-app-status.herokuapp.com/predict
+https://covid-app-status.herokuapp.com

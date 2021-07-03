@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
 
 
 from flask import Flask, render_template, request
@@ -27,11 +23,10 @@ def result():
     return render_template("index.html", result = pred[0])
 
 
-app.run()
-   
+if __name__ == '__main__':
+    app.run()
 
 
-# In[ ]:
 
 
 
